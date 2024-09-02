@@ -60,7 +60,7 @@ const userSchema= new Schema(
         refreshToken:{
             type:String,
         }
-    },
+    }, 
     {timeseries:true})
 
 userSchema.pre("save", async function(next){
