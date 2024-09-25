@@ -21,13 +21,13 @@ const userSchema= new Schema(
             trim:true
         },
 
-        fullname:{
-            type:String,
-            required:true,
-            lowercase:true,
-            trim:true,
-            index:true
-        },
+        // fullname:{
+        //     type:String,
+        //     required:true,
+        //     lowercase:true,
+        //     trim:true,
+        //     index:true
+        // },
 
         fullname:{
             type:String,
